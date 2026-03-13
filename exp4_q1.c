@@ -1,0 +1,20 @@
+#include<stdio.h>
+typedef struct bitfield
+{
+	unsigned int a:4;
+	unsigned int b:4;
+	unsigned int c:4;
+	
+}bit;
+int main()
+{
+	bit a1;
+	a1.a=7;
+	printf("%d\n",a1.a);
+	a1.b=14;
+	printf("%d\n",a1.b);
+	a1.c=20;
+	printf("%d\n",a1.c);
+	return 0;
+	
+}
